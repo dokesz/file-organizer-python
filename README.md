@@ -11,3 +11,5 @@ A get_new_filename függvény segít létrehozni egy egyedi nevet az újonnan m�
 Beállítja a mappákat a Letöltések és Dokumentumok elérési útvonalaira. Ezeket a változókat a saját elérési útvonalaidra kell módosítani.
 Inicializálja és elindítja a watchdog Observer-t, amely figyeli a Letöltések mappát, és hívja a DownloadFolderHandler osztály on_modified metódusát, amikor változás történik.
 A script végtelen ciklusban fut, amíg a felhasználó meg nem szakítja CTRL+C lenyomásával.
+
+At the command prompt, type `nano`.
