@@ -12,4 +12,6 @@ Beállítja a mappákat a Letöltések és Dokumentumok elérési útvonalaira. 
 Inicializálja és elindítja a watchdog Observer-t, amely figyeli a Letöltések mappát, és hívja a DownloadFolderHandler osztály on_modified metódusát, amikor változás történik.
 A script végtelen ciklusban fut, amíg a felhasználó meg nem szakítja CTRL+C lenyomásával.
 
-At the command prompt, type `nano`.
+A script használata előtt győződjön meg róla, hogy telepítette a watchdog csomagot a Python környezetébe. Ha még nem telepítette, futtassa ezt a parancsot:
+
+ `pip install watchdog`.
