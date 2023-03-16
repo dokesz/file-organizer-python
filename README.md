@@ -14,4 +14,4 @@ A script végtelen ciklusban fut, amíg a felhasználó meg nem szakítja CTRL+C
 
 A script használata előtt győződjön meg róla, hogy telepítette a watchdog csomagot a Python környezetébe. Ha még nem telepítette, futtassa ezt a parancsot:
 
- `pip install watchdog`.
+ `pip install watchdog`
